@@ -1,3 +1,5 @@
+// This overlay is for dpi_output_format = 6 ( Gert VGA666 board )
+
 /dts-v1/;
 /plugin/;
 

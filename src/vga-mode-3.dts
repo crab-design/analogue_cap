@@ -1,3 +1,5 @@
+// This overlay is for dpi_output_format = 2
+
 /dts-v1/;
 /plugin/;
 
@@ -20,7 +22,7 @@
       target = <&gpio>;
       __overlay__ {
          vga666_pins: vga666_pins {
-            brcm,pins = <2 3 4 5 6 7 8 9 12 13 14 15 16 17 20 21 22 23 24 25>;
+            brcm,pins = <2 3 4 5 6 7 8 12 13 14 15 16 17 20 21 22 23 24>;
             brcm,function = <6>; /* alt2 */
             brcm,pull = <0>; /* no pull */
          };

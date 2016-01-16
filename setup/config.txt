@@ -18,10 +18,10 @@ sdtv_mode=2
 sdtv_aspect=2
 
 # Overscan settings
-overscan_left=16
-overscan_right=16
-overscan_top=16
-overscan_bottom=16
+#overscan_left=16
+#overscan_right=16
+#overscan_top=16
+#overscan_bottom=16
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
