@@ -6,8 +6,8 @@ information about compiling and editing them can be found on the [Raspberry Pi w
 
 to compile (in Rasbian) use the following steps, install the dtc-compiler
 
-  sudo apt-get install device-tree-compiler
+`sudo apt-get install device-tree-compiler`
 
 then use the following command `-I dts` defines the source type `-O is the output type` then `-o output.dtb` is the output file you want to make and then the `source.dts` is the file you want to compile.
 
-  dtc -I dts -O dtb -o output.dtb source.dts
+`dtc -I dts -O dtb -o output.dtb source.dts`
