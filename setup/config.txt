@@ -3,10 +3,15 @@ dtoverlay=crab-vga
 enable_dpi_lcd=1
 dpi_output_format=6
 
+# On RPi3 Bluetooth has to be disabled 
+# for the VGA to work
+dtoverlay=pi3-disable-bt
+
 # Makes the VGA the main interface
 display_default_lcd=1
 
-# Set resolution of VGA (numbers the the same as HDMI)
+# Set resolution of VGA 
+# numbers the the same as HDMI
 dpi_group=2
 dpi_mode=16
 
