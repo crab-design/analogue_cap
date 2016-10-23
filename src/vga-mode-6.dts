@@ -1,4 +1,4 @@
-// This overlay is for dpi_output_format = 6 ( Gert VGA666 board )
+// This overlay is for dpi_output_format = 6 ( crab analogue board )
 
 /dts-v1/;
 /plugin/;

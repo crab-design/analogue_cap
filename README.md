@@ -23,6 +23,8 @@ the BOM is as follows
 
 ##Enabling the outputs
 
+Please see the setup folder for more information
+
 Due to space and cost the cap does not have auto recognition EEPROM as defined by the HAT specification. It has to be set up by editing the config.txt and adding files to the /boot/ partition.
 
 For VGA it uses Gert van loo's VGA666 hack which uses a passive resistor network to perform the Digital to Analogue conversion. The pins it uses are mapped differently (mode 6 instead of 5) to allow for the audio to also be broken out of the GPIO header. To activate VGA an 'overlay' has to be added to the configuration files of the boot partition. These will be provided in the Github repository.
