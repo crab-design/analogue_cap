@@ -1,5 +1,9 @@
 ##Making it work
 
+You can simply download `config.txt` in this directory and put it in your boot folder. Or you can edit `config.txt` on directly the Raspberry Pi.
+
+
+
 ###VGA
 To use the VGA you need to add the file to /boot/overlays/
 
@@ -31,16 +35,21 @@ dpi_mode=16
 # for the VGA to work
 dtoverlay=pi3-disable-bt
 ```
+
 `dpi_group` and `dpi_mode` sets the resolution, it is the same setting as HDMI. 
 see following link for info, [Raspberry Pi Config.txt](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
 ###Audio
 To make the audio work all you need to do is add the following line to config.txt
-```dtoverlay=pwm-2chan```
+```
+dtoverlay=pwm-2chan
+```
 
 ###Composite Out
+
 For composite add this to `/boot/config.txt` this sets the resolution. 
 see following link for info, [Raspberry Pi Config.txt](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
+
 ```
 # Settings SDTV (composite)
 sdtv_mode=2
